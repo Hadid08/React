@@ -1,0 +1,16 @@
+import React from 'react'
+
+const Card = (props) => {
+
+    return (
+        <div className="card">
+            <img src={props.img} alt="" />
+            <h1>{props.user},{props.age}</h1>
+            <h2>{props.about}</h2>
+            <p>{props.desc}</p>
+            <button>View Profile</button>
+        </div>
+    )
+}
+
+export default Card

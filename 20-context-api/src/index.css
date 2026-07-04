@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+}
+
+.light {
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  padding: 14px 20px;
+}
+
+.dark {
+  background-color: darkslategray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(245, 245, 245);
+  padding: 14px 20px;
+}
+
+h4 {
+  display: flex;
+  gap: 20px;
+}
+
+h4 > li {
+  list-style-type: none;
+}
+
+button {
+  padding: 10px;
+  margin: 20px;
+}
+

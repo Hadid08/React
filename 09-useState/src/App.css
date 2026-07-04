@@ -1,0 +1,17 @@
+button {
+  margin: 10px;
+  padding: 15px;
+  
+}
+
+.button1 {
+  border: 1px solid rgb(90, 218, 90);
+  color: rgb(153, 224, 153);
+  background-color: rgb(1, 43, 1);
+}
+
+.button2 {
+  border: 1px solid red;
+  color: rgb(209, 101, 101);
+  background-color: rgb(77, 2, 2);
+}

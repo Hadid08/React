@@ -1,0 +1,14 @@
+
+.container {
+  padding: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  height: 400px;
+  width: 400px;
+  background-color: aqua;
+  color: black;
+}

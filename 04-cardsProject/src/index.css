@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  align-items: center;
+}
+
+.container {
+  background-color: black;
+  color: white;
+  padding: 40px 20px;
+  margin: 0 20vw;
+  height: 100vh;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.parent {
+  width: 100vw;
+  background-color: #000;
+  color: white;
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* .row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+} */
+
+.second-row {
+  margin-top: 30px;
+}
+
+.icon1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.icon2 {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-content: flex-start;
+}
+
+header > h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+.card {
+  width: 230px;
+  height: 260px;
+  background-color: white;
+  color: #000;
+  padding: 0 25px;
+  border-radius: 20px;
+}
+
+#tags > span{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#tags {
+  padding-top: 7px;
+}
+
+
+.tag1, .tag2 {
+  font-size: 11px;
+  border-radius: 5px;
+  padding: 2px 3px;
+  background-color: rgb(231, 229, 229);
+}
+
+main {
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+.first {
+  font-size: 14px;
+}
+
+.days {
+  font-size: 8px;
+  font-weight: lighter;
+  margin-left: 10px;
+}
+
+main :nth-child(3){
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+  align-content: flex-end;
+}
+
+footer > div:first-child {
+  display: flex;
+  flex-direction: column;
+}
+
+footer > div:first-child > .price {
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+footer > div:first-child > .location {
+  font-size: 7px;
+  font-weight: lighter;
+}
+
+footer > button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 7px;
+  font-size: 0.5em;
+}
+

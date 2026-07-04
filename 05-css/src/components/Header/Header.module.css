@@ -1,0 +1,17 @@
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.image {
+  height: 50px;
+  width: 50px;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
